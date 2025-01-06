@@ -5,10 +5,10 @@ export default function HomeBanner() {
         <section className="h-auto py-20 px-5 text-center sm:text-left flex flex-col sm:flex-row items-center sm:items-start" style={{ backgroundColor: '#fcb2d3'}}>
             
             <div className="text-left text-lg font-medium sm:ml-64" style={{width:'420px'}}>
-                <h2 className="text-xl sm:text-3xl font-bold leading-tight" style={{ color: '#e2186f', marginBottom:"80px"}}>
+                <h2 className="text-4xl sm:text-4xl  font-bold leading-tight" style={{ color: '#e2186f', marginBottom:"80px"}}>
                     <i>Fynova</i>
                 </h2>
-                <h1 className="text-3xl sm:text-5xl font-bold leading-tight" style={{ color: '#002855' }}>
+                <h1 className="text-3xl sm:text-5xl  font-bold leading-tight" style={{ color: '#002855' }}>
                     Deine Lebensmittel, gleich geliefert
                 </h1>
                 <p className="mt-4 text-lg sm:text-xl" style={{ color: '#002855', marginBottom:"60px" }}>

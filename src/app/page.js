@@ -1,15 +1,17 @@
 import React from "react";
 import Header from "./_components/header";
-import HomeBanner from "./_components/HomeBanner";
-import HomeBanner2 from "./_components/HomeBanner2";
-import CategorySection from "./_components/CategorySection";
+import HomeBanner from "./_components/homePage/HomeBanner";
+import HeroSection from "./_components/homePage/HeroSection";
+import BannerBild from "./_components/homePage/BannerBild";
+
 
 export default function Home() {
   return (
     <div>
     <Header />
     <HomeBanner />
-    <HomeBanner2 />
+    <HeroSection />
+    <BannerBild />
     </div>
     
     );
