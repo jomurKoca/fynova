@@ -3,6 +3,7 @@ import Header from "./_components/header";
 import HomeBanner from "./_components/homePage/HomeBanner";
 import HeroSection from "./_components/homePage/HeroSection";
 import BannerBild from "./_components/homePage/BannerBild";
+import InfoSection from "./_components/homePage/InfoSection";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
     <HomeBanner />
     <HeroSection />
     <BannerBild />
+    <InfoSection />
     </div>
     
     );

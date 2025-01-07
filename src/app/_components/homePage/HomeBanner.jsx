@@ -24,13 +24,13 @@ export default function HomeBanner() {
                 
             </div>
             <div className="mt-10 sm:mt-0 sm:ml-10">
-                    <img 
-                        src="/fotos/bannerbild3.jpg" 
-                        alt="Supermarkt-Produkte" 
-                        className="rounded-lg shadow-lg max-w-full h-auto"
-                        style={{ maxWidth: '400px' }}
-                    />
-                </div>
+                <img 
+                    src="/fotos/bannerbild3.jpg" 
+                    alt="Supermarkt-Produkte" 
+                    className="rounded-lg shadow-lg max-w-full h-auto"
+                    style={{ maxWidth: '400px' }}
+                />
+            </div>
             
         </section>
     );

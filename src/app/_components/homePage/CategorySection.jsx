@@ -18,9 +18,9 @@ const CategorySection = () => {
                         <img 
                             src={category.image} 
                             alt={category.title} 
-                            className="w-32 h-32 object-cover mb-2" // Görsel boyutunu ayarlayın
+                            className="w-32 h-32 object-cover mb-2 cursor-pointer" 
                         />
-                        <h3 className="text-lg font-medium" style={{color:'#002855'}}>{category.title}</h3>
+                        <h3 className="text-lg font-medium cursor-pointer" style={{color:'#002855'}}>{category.title}</h3>
                     </div>
                 ))}
             </div>
