@@ -6,7 +6,6 @@ import BannerBild from "./_components/homePage/BannerBild";
 import InfoSection from "./_components/homePage/InfoSection";
 import StaffSection from "./_components/homePage/StaffSection";
 import AppInfo from "./_components/homePage/AppInfo";
-import QuickLinks from "./_components/homePage/QuickLinks";
 
 
 export default function Home() {
@@ -19,7 +18,6 @@ export default function Home() {
     <InfoSection />
     <StaffSection />
     <AppInfo />
-    <QuickLinks />
     </div>
     
     );

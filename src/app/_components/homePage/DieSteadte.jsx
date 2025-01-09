@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button'
 import { useState } from 'react'
 
 
-const cities = [
+export const cities = [
   'Aachen',
   'Aschaffenburg',
   'Augsburg',
@@ -68,6 +68,7 @@ const cities = [
   'Wolfsburg',
   'Würzburg',
 ]
+
 
 export default function DieSteadte() {
   const [showMore, setShowMore] = useState(false)
