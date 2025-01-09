@@ -13,7 +13,7 @@ export default function InfoSection() {
                                 Gute Gründe für Fynova
                         </h1>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-10 mb-10 ">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-10 mb-10 mx-10">
                         <div className="flex flex-col items-center justify-center text-center">
                         <ShoppingBasket size={80} color="#e2186f" strokeWidth={1}/>
                         <h2 style={{color:'#002855'}} className="font-bold text-center">Täglich neue Produkte</h2>
