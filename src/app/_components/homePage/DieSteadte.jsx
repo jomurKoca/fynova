@@ -74,14 +74,15 @@ export default function DieSteadte() {
 
   return (
     <div className="flex flex-wrap gap-2 justify-center ">
-      {cities.slice(0, showMore ? cities.length : 14).map((city) => (
-        <div key={city} className=" justify-center text-center rounded-md border w-48 px-2 py-2" style={{backgroundColor:'#f4f7fa' , color:'#002855'}}>
+      {cities.slice(0, showMore ? cities.length : 13).map((city) => (
+        <div key={city} className=" justify-center text-center rounded-md border w-48 px-2 py-2" 
+        style={{backgroundColor:'#f4f7fa' , color:'#002855'}}>
           {city}
         </div>
       ))}
       <Button
         onClick={() => setShowMore(!showMore)}
-        className="mt-4 rounded-md font-bold px-4 py-2"
+        className=" justify-center text-center font-extrabold rounded-md border w-48 px-5 py-5"
         style={{backgroundColor:'#f4f7fa' , color:'#002855'}}
       >
         {showMore ? 'Weniger' : 'Mehr'}

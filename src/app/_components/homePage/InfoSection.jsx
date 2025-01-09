@@ -7,7 +7,7 @@ import DieSteadte from './DieSteadte';
 export default function InfoSection() {
     return (
         <section className="mt-20">
-            <div className="mb-10">
+            
                 <div className="flex justify-center text-center">
                         <h1 className="text-4xl font-extrabold" style={{color:'#002855'}}>
                                 Gute Gründe für Fynova
@@ -69,7 +69,7 @@ export default function InfoSection() {
                 </div>
 
 
-            </div>
+            
         </section> 
     );
 }
