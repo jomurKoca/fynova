@@ -8,29 +8,32 @@ export default function AppInfo() {
                 <p className="text-lg mb-4" style={{color:'#002855'}}>
                  Bestelle deine Lieblingsprodukte bequem per App. Jetzt <strong><i> fynova</i></strong> App downloaden.
                 </p>
-                
-                <a
-                    href="https://apps.apple.com/store"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <img
-                    src="/fotos/AppleIcon.svg"
-                    alt="appleicon"
-                    className="h-12 w-64"
-                    />
-                </a>
-                <a
-                    href="https://play.google.com/store"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <img
-                    src="/fotos/PlayStore.png"
-                    alt="playstoreapp"
-                    className="h-12 w-36"
-                    />
-                </a>
+                <div>
+                    <a
+                        href="https://apps.apple.com/store"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                        src="/fotos/AppleIcon.svg"
+                        alt="appleicon"
+                        className="h-12 w-64"
+                        />
+                    </a>
+                </div>
+                <div>
+                    <a
+                        href="https://play.google.com/store"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                        src="/fotos/PlayStore.png"
+                        alt="playstoreapp"
+                        className="h-12 w-36"
+                        />
+                    </a>
+                </div>
                 
             </div>
 
