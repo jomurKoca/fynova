@@ -45,18 +45,20 @@ export default function InfoSection() {
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-">
-                    <div className="flex flex-col items-center justify-center text-center max-w-96 sm:ml-40">
+                    <div className="flex flex-col items-center justify-center text-center max-w-96 sm:ml-40 ml-5">
+                        
                         <h1 className="text-4xl font-extrabold mb-5" style={{color:'#002855'}}>
-                            In Sekunden bestellt. In Minuten geliefert. 
+                            In Sekunden bestellt. In Minuten geliefert.
                         </h1>
                         <p >
                             <i>Fynova</i> liefert bereits in über 100 Städten. Deine Stadt ist noch nicht dabei? Melde dich an und bleib up-to-date.
                         </p>
 
                         <Button className="font-bold mt-10" style={{backgroundColor:'#e2186f'}}>Meine Adresse überprüfen</Button>
+                        
                     </div>
                     
-                    <div className="mt-10 sm:mt-0 sm:ml-10">
+                    <div className="mt-10 sm:mt-0 sm:ml-10 ml-8">
                         <img 
                         src="/fotos/17.png" 
                         alt="Supermarkt-Produkte" 

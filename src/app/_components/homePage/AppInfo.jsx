@@ -17,7 +17,7 @@ export default function AppInfo() {
                         <img
                         src="/fotos/AppleIcon.svg"
                         alt="appleicon"
-                        className="h-12 w-64"
+                        className="h-12 max-w-64"
                         />
                     </a>
                 </div>

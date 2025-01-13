@@ -2,16 +2,16 @@ import { Button } from "@/components/ui/button";
 
 export default function HomeBanner() {
     return ( 
-        <section className="h-auto py-20 px-5 text-center sm:text-left flex flex-col sm:flex-row items-center sm:items-start" style={{ backgroundColor: '#fcb2d3'}}>
+        <section className="h-auto sm:py-20 py-10 sm:text-left flex flex-col sm:flex-row items-center sm:items-start" style={{ backgroundColor: '#fcb2d3'}}>
             
-            <div className="text-left text-lg font-medium sm:ml-64" style={{width:'420px'}}>
-                <h2 className="text-4xl sm:text-4xl  font-bold leading-tight" style={{ color: '#e2186f', marginBottom:"80px"}}>
+            <div className="sm:ml-64" style={{width:'420px'}}>
+                <h1 className="px-5 text-4xl sm:text-4xl mb-20 font-extrabold leading-tight" style={{ color: '#e2186f'}}>
                     <i>Fynova</i>
-                </h2>
-                <h1 className="text-3xl sm:text-5xl  font-bold leading-tight" style={{ color: '#002855' }}>
+                </h1>
+                <h1 className="text-center sm:text-left px-5 text-4xl sm:text-5xl font-extrabold leading-tight" style={{ color: '#002855' }}>
                     Deine Lebensmittel, gleich geliefert
                 </h1>
-                <p className="mt-4 text-lg sm:text-xl" style={{ color: '#002855', marginBottom:"60px" }}>
+                <p className="text-center sm:text-left px-5 mt-4 text-lg sm:text-xl" style={{ color: '#002855'}}>
                     Ein ganzer Supermarkt in nur einer App. So kannst du deine Lebensmittel online bestellen.
                     <strong><i>Fynova</i></strong> liefert Supermarkt-Produkte – von A wie Apfel bis Z wie Zahnpasta – bequem nach Hause.
                     In Minuten. Bis zur Tür.
