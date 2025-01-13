@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export default function HomeBanner() {
@@ -16,11 +17,13 @@ export default function HomeBanner() {
                     <strong><i>Fynova</i></strong> liefert Supermarkt-Produkte – von A wie Apfel bis Z wie Zahnpasta – bequem nach Hause.
                     In Minuten. Bis zur Tür.
                 </p>
-                <div className="flex justify-center mt-6">
-                    <Button  className="font-bold py-3 px-6 rounded-lg shadow-md" style={{ backgroundColor: '#e2186f' }}>
-                        Jetzt einkaufen
-                    </Button>
-                </div>
+                <Link href="/Shop">
+                    <div className="flex justify-center mt-6">
+                        <Button  className="font-bold py-3 px-6 rounded-lg shadow-md" style={{ backgroundColor: '#e2186f' }}>
+                            Jetzt einkaufen
+                        </Button>
+                    </div>
+                </Link>
                 
             </div>
             <div className="mt-10 sm:mt-0 sm:ml-10">

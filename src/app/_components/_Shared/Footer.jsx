@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-      <footer className="py-4" style={{ color:'#002855' }}>
+      <footer className="py-4 " style={{ color:'#002855' }}>
         <div className="flex flex-col-reverse md:flex-row sm:justify-center text-left mx-4 gap-4">
           <p>© 2025 Fynova</p>
           <a href="/terms" className="hover:underline">

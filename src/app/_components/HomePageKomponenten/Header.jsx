@@ -7,7 +7,9 @@ export default function Header() {
             <div className="text-white sm:ml-20">
                 Bei <strong><i>Fynova</i></strong> bestellen und Rabatt sichern
             </div>
-            <Button variant="outline" size="fynovaAppButton" className="rounded-3xl font-extrabold sm:mr-24"> App laden </Button>
+            <Button variant="outline" size="fynovaAppButton" className="rounded-3xl font-extrabold sm:mr-24"> 
+                App laden 
+            </Button>
         </div>
     );
 }

@@ -1,6 +1,7 @@
 import React from 'react'
-import CategorySection from './CategorySection';
+import CategorySection from '../_Shared/CategorySection';
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 export default function HeroSection() {
   return ( 
@@ -14,8 +15,11 @@ export default function HeroSection() {
         </p>
       </div>
       <CategorySection />
-      <Button className=" w-64 p-6 font-bold " style={{backgroundColor:'#e2186f' }}> Sortiment entdecken </Button>
-        
+      <Link href="/Shop">
+        <Button className=" w-64 p-6 font-bold " style={{backgroundColor:'#e2186f' }}> 
+          Sortiment entdecken 
+        </Button>
+      </Link>
     </section>
   );
 }
