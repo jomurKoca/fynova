@@ -1,5 +1,6 @@
 import React from 'react'
 import { Facebook , Instagram , Linkedin } from 'lucide-react';
+import Link from 'next/link';
 
 export default function FooterSection() {
 return (
@@ -8,11 +9,11 @@ return (
                 <h1 className="text-4xl font-bold text-[#e2186f]"><i>Fynova</i></h1>
                 <div className="text-[#002855]">
                         <h1 className="font-extrabold text-2xl">About</h1>
-                        <p>Jobs</p>
-                        <p>FAQ</p>
+                       <Link target='_blank' href="/privacy" className="hover:underline"> <p>Jobs</p></Link>
+                        <Link href="/privacy"  className="hover:underline"><p>FAQ</p></Link>
                 </div>
                 <div className="text-[#002855]">
-                        <h1 className="font-extrabold text-2xl">Social</h1>
+                        <h1 className="font-extrabold text-2xl mb-4">Social</h1>
                         <div className="flex space-x-4">
                                 <a alt="Facebook" href="/privacy">
                                         <Facebook />
@@ -26,9 +27,9 @@ return (
                         </div>
                 </div>
                 <div className="mr-32">
-                    <h1 className="font-extrabold text-2xl text-[#002855]">Apps</h1>
+                    <h1 className="font-extrabold text-2xl mb-4 text-[#002855]">Apps</h1>
                     <a
-                            href="https://apps.apple.com/store"
+                            href="https://apps.apple.com/"
                             target="_blank"
                             rel="noopener noreferrer">
                             <img

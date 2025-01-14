@@ -9,12 +9,12 @@ export default function StaffSection() {
           <img src="/fotos/19.jpg" alt="rider" />
         </div>
 
-        <div className="md:w-1/2 flex flex-col justify-center p-10 text-center items-center mx-16 mb-20">
+        <div className="md:w-1/2 flex flex-col justify-center py-10 text-center items-center mx-16 mb-20">
           <h1 className="text-white font-extrabold text-4xl mb-10">
             Werde Rider bei uns
           </h1>
           <p className="text-white text-2xl mb-10">
-            Profitiere von einem attraktiven Stundenlohn mit Trinkgeld, 
+            Profitiere von einem attraktiven Stundenlohn mit Trinkgeld,
             Rabatt auf jeden Einkauf, gratis Ausrüstung, Telefonvergütung, 
             Bonusmöglichkeiten und vielem mehr.
           </p>
