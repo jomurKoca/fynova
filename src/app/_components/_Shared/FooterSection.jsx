@@ -35,7 +35,7 @@ return (
                             <img
                                     src="/fotos/AppleIcon.svg"
                                     alt="appleicon"
-                                    className="h-12 max-w-64"
+                                    className="h-12 max-w-36 mb-4"
                             />
                     </a>
                     <a
@@ -45,7 +45,7 @@ return (
                             <img
                                     src="/fotos/PlayStore.png"
                                     alt="playstoreapp"
-                                    className="h-12 max-w-36"
+                                    className="h-12 max-w-36 rounded-lg"
                             />
                     </a>
                 </div>
