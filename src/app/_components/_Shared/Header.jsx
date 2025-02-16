@@ -7,9 +7,9 @@ import Link from 'next/link';
 import { Navigation, LayoutGrid, Menu, BadgePercent, User, Search } from 'lucide-react';
 import SearchIconInput from './SearchIconInput';
 import { Button } from '@/components/ui/button';
-import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
+//import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import AdresseButton from './AdresseButton';
-import AdresseDialog from './AdresseDialog';
+//import AdresseDialog from './AdresseDialog';
 
 
 

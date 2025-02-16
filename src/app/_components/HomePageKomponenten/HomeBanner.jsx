@@ -1,9 +1,9 @@
-import Link from "next/link";
+import Link from "next/link";  // Import Link from next/link ermöglicht das Verlinken von Seiten ohne das die Seite neu geladen wird
 import { Button } from "@/components/ui/button";
 
 export default function HomeBanner() {
     return ( 
-        <section className="h-auto sm:py-20 py-10 sm:text-left flex flex-col sm:flex-row items-center sm:items-start" style={{ backgroundColor: '#fcb2d3'}}>
+        <section className="h-auto sm:py-20 py-10 sm:text-left flex flex-col sm:flex-row items-center sm:items-center" style={{ backgroundColor: '#fcb2d3'}}>
             
             <div className="sm:ml-64" style={{width:'420px'}}>
                 <h1 className="px-5 text-4xl sm:text-4xl mb-20 font-extrabold leading-tight" style={{ color: '#e2186f'}}>
@@ -38,5 +38,29 @@ export default function HomeBanner() {
         </section>
     );
 }
-
+{/*
+1-Link ermöglicht das Verlinken von Seiten ohne das die Seite neu geladen wird
+2-Funcition HomeBanner wird erstellt und exportiert damit sie in anderen Dateien importiert werden kann
+3- h-auto wird für die Höhe des Banners verwendet
+4- sm:py-20 py-10 dient dazu, dass der Banner auf großen Bildschirmen mehr padding hat als auf kleinen
+5- sm:text-left ermöglicht das zentrieren des Textes auf kleinen Bildschirmen und das linksbündige auf großen Bildschirmen.
+6- flex flex-col sm:flex-row wird verwendet um die Elemente in einer Reihe anzuzeigen auf großen Bildschirmen und in einer Spalte auf kleinen Bildschirmen.
+7-  items-center sm:items-center wird verwendet um die Elemente in der Mitte der Seite anzuzeigen
+8- sm:ml-64 wird verwendet um den Text auf großen Bildschirmen weiter nach rechts zu verschieben
+9- width:'420px' wird verwendet um die Breite des Textes auf großen Bildschirmen zu definieren
+10- px-5 wird verwendet um den Text auf der linken und rechten Seite zu padden
+11- text-4xl sm:text-4xl Erklärung: Diese Klasse definiert die Schriftgröße des Textes auf 4xl, 
+was in der Regel einer sehr großen Schriftgröße entspricht (ungefähr 2.25rem oder 36px). Es wird verwendet, um den Text hervorzuheben.
+12- mb-20 wird verwendet um den Text von den anderen Elementen zu trennen
+13-font-extrabold: Diese Klasse macht den Text extrafett. Es wird verwendet, um den Text besonders hervorzuheben und ihm mehr Gewicht zu verleihen.
+14- leading-tight: Diese Klasse definiert den Zeilenabstand des Textes auf tight, was bedeutet, dass der Zeilenabstand kleiner ist als normal.
+Diese Klasse reduziert den Zeilenabstand (line-height) des Textes, was bedeutet, dass die Zeilen näher beieinander stehen. 
+Dies kann helfen, den Text kompakter und dichter erscheinen zu lassen.
+15- h1 wird verwendet um den Text als Überschrift zu definieren
+16- p wird verwendet um den Text als Absatz zu definieren
+17- text-center sm:text-left wird verwendet um den Text in der Mitte der Seite anzuzeigen auf kleinen Bildschirmen und linksbündig auf großen Bildschirmen.
+18 - px -5 wird verwendet um den Text auf der linken und rechten Seite zu padden
+19- flex justify-center mt-6 wird verwendet um den Button in der Mitte der Seite anzuzeigen
+20- rounded-lg shadow-md wird verwendet um den Button abzurunden und einen Schatten zu geben
+*/}
   

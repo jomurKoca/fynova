@@ -26,3 +26,9 @@ export default function StaffSection() {
     </section>
   );
 }
+{/* 
+1-Button wird aus der Button-Komponente importiert um den Button zu erstellen
+2- wf-full wird verwendet um die Breite des Abschnitts auf die gesamte Breite des Bildschirms zu setzen
+3- flex-col md:flex-row wird verwendet um die Elemente in einer Spalte auf kleinen Bildschirmen und in einer Reihe auf großen Bildschirmen anzuzeigen
+4- md:w-1/2 wird verwendet um die Breite des Bildes auf großen Bildschirmen zu definieren. Es nimmt die Hälfte der Breite des Bildschirms ein.
+*/}
