@@ -27,7 +27,8 @@ export default function AdresseInput({ onSelect = () => {}}) { // onSelect fonks
       } else {
         setSuggestions([]);
       }
-    } catch (error) {
+    } 
+    catch (error) {
       console.error("API Hatası:", error);
     }
   }
