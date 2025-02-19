@@ -4,7 +4,8 @@ import { Dialog, DialogContent , DialogTitle} from '@/components/ui/dialog';
 import { VisuallyHidden  } from '@radix-ui/react-visually-hidden';
 //import { Imprima } from 'next/font/google';
 import { Search , Navigation } from 'lucide-react';
-import AdresseInput from './AdresseInput';
+//import AdresseInput from './AdresseInput';
+import InputMitReactGoogle from './InputMitReactGoogle';
 
 export default function AdresseDialog({ open , onOpenChange}) {
 
@@ -33,7 +34,8 @@ export default function AdresseDialog({ open , onOpenChange}) {
 
         {/* Rechte Seite */}
         <div className="flex-1 p-6">
-          <AdresseInput />
+          {/*<AdresseInput /> */}
+          <InputMitReactGoogle />
           <div className="hover:cursor-pointer hover:bg-slate-100 p-1">
             <div className="flex items-center gap-2 mt-4 "> 
               <Navigation className=""/>

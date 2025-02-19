@@ -5,7 +5,9 @@ export default function AppInfo() {                    {/* */}
         <section className="flex flex-col sm:flex-row items-center justify-between"> 
             <div className="flex flex-col sm:items-center sm:w-1/2 sm:text-center mx-8 space-y-4">
                 <div>
-                    <h1 className="sm:text-4xl text-2xl text-center font-extrabold mb-4" style={{color:'#002855'}}>Toi Toi Toi, Zack Zack!</h1>
+                    <h1 className="sm:text-4xl text-2xl text-center font-extrabold mb-4" style={{color:'#002855'}}>
+                        Vit vat hoch , schäi war's doch! Vit vat Hennadreck, unser ganzes Geld ist weg!
+                    </h1>
                     <p className="text-lg mb-4" style={{color:'#002855'}}>
                     Bestelle deine Lieblingsprodukte bequem per App. Jetzt <strong><i> fynova</i></strong> App downloaden.
                     </p>

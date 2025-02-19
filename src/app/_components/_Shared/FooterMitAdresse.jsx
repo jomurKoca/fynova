@@ -4,10 +4,10 @@ import React, { useState } from 'react';
 import AdresseDialog from './AdresseDialog';
 
 export default function FooterMitAdresse() {
-  const [showAdresseDialog, setShowAdresseDialog] = useState(false); // Durum değişkeni oluşturuldu
+  const [showAdresseDialog, setShowAdresseDialog] = useState(false); // Durum değişkeni oluşturuldu. Ilk durumda kapali
 
   const handleButtonClick = () => {
-    setShowAdresseDialog(true); // Butona tıklandığında dialog açılır
+    setShowAdresseDialog(true); // Butona tıklandığında dialog açılır yani false durumu true yapılır
   };
 
   const handleCloseDialog = () => {
@@ -15,7 +15,7 @@ export default function FooterMitAdresse() {
   };
 
   return (
-    <div className="fixed sm:bottom-0 bottom-14 w-full flex items-center bg-slate-100 rounded-lg p-4">
+    <div className="fixed sm:bottom-0 bottom-14 w-full flex items-center bg-slate-100 rounded-lg p-4 cursor-pointer">
       <img className="max-h-20" src="/fotos/footermap.png" alt="map" />
       <p className="text-[#002855] font-sm ml-4">
         Gib deine Adresse ein, um Produkte in deiner Nähe zu sehen

@@ -7,6 +7,7 @@ import FooterMitAdresse from "./_components/_Shared/FooterMitAdresse";
 //import Header from "./_components/_Shared/Header";
 //import { usePathname } from 'next/navigation';
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

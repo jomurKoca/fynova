@@ -1,7 +1,10 @@
+// mit FetchApi
 'use client';
 import React, { useState, useEffect, useRef } from "react";
 import { Search } from 'lucide-react';
+
 export default function AdresseInput({ onSelect = () => {}}) { // onSelect fonksiyonunu bilesen geciriyoruz
+  
   const [inputValue, setInputValue] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   const [activeSuggestionIndex, setActiveSuggestionIndex] = useState(-1);
