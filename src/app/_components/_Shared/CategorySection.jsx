@@ -40,7 +40,8 @@ Das würde uns erlauben, die Komponente später in der React DevTools zu identif
 {categories.map((category, index) => (: categories dizisini döngüye alır ve her bir kategori için bir JSX öğesi oluşturur. 
 category her bir kategori nesnesini temsil ederken, index dizideki mevcut öğenin indeksini temsil eder.
 3- Das div-Element enthält ein img-Element, das das Bild der Kategorie anzeigt, und ein h3-Element, das den Titel der Kategorie anzeigt.
-4- Index wird als Schlüssel für das div-Element verwendet, um React zu helfen, die Elemente zu identifizieren und zu verwalten.
+4- Index wird als Schlüssel für das div-Element verwendet, um React zu helfen, die Elemente zu identifizieren und zu verwalten. 
+Wenn index nicht verwendet wird, kann React diese Warnung ausgeben : "Each child in a list should have a unique "key" prop."
 5- key={index} : React benötigt eine eindeutige key-Prop, um die Elemente in der Liste zu identifizieren und zu verwalten.
 6- src={category.image} : Das src-Attribut des img-Elements wird auf den Wert des image-Eigenschaft des category-Objekts gesetzt.
 7- alt={category.title} : Das alt-Attribut des img-Elements wird auf den Wert des title-Eigenschaft des category-Objekts gesetzt.
