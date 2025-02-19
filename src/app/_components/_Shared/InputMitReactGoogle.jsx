@@ -4,6 +4,7 @@
 
 import { useState } from "react";
 import { useJsApiLoader, Autocomplete } from "@react-google-maps/api";
+import { Search } from "lucide-react";
 
 export default function InputMitReactGoogle({ onPlaceSelected = () => {}}) { // mit =() => {} ile onPlaceSelected fonksiyonunu bileşene varsayilan geciriyoruz
   const [autocomplete, setAutocomplete] = useState(null);
@@ -21,15 +22,18 @@ export default function InputMitReactGoogle({ onPlaceSelected = () => {}}) { // 
     }
   };
 
-  if (!isLoaded) return <p>Loading...</p>;
+  if (!isLoaded) return <p>Loading...</p>; 
 
-  return (
-    <Autocomplete onLoad={setAutocomplete} onPlaceChanged={handlePlaceChanged}>
-      <input 
-        type="text" 
-        placeholder="Adresse eingeben..." 
-        className="border p-2 rounded w-full"
-      />
-    </Autocomplete>
-  );
+return (
+    <div className="relative">
+        <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-[#002855]" />
+        <Autocomplete onLoad={setAutocomplete} onPlaceChanged={handlePlaceChanged}>
+            <input 
+                type="text" 
+                placeholder="Gib hier deine Lieferadresse ein.." 
+                className="border p-4 pl-10 rounded w-full hover:border-black"
+            />
+        </Autocomplete>
+    </div>
+);
 }

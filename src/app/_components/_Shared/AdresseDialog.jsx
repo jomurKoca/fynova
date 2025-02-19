@@ -52,4 +52,15 @@ export default function AdresseDialog({ open , onOpenChange}) {
 }
 {/*
 1- AdresseDialog ist eine Funktion, die es uns ermöglicht, ein Dialogfenster zu erstellen.
+2- useState-Hook wird importiert, um den zustand des Dialogfensters zu verwalten.
+3- Dialog, DialogContent und DialogTitle werden von der Dialog-Komponente importiert. (Sihe src/components/ui/dialog)
+4- VisuallyHidden wird von Radix UI importiert, um den Titel des Dialogs für Screenreader unsichtbar zu machen.
+5- Search und Navigation werden von Lucide React importiert, um die Icons für die Suche und die Navigation zu verwenden.
+6- InputMitReactGoogle wird importiert, um die Adresseingabe zu ermöglichen.
+7- AdresseDialog wird als Standard exportiert.
+8- AdresseDialog wird mit den Props open und onOpenChange aufgerufen. 
+Open ist ein boolescher Wert, der angibt, ob das Dialogfenster geöffnet ist oder nicht. (API Reference von Radix UI)
+onOpenChange ist eine Funktion, die aufgerufen wird, wenn sich der Wert von open ändert. (Api Reference von Radix UI)
+9- Dialog wird mit den Props open und onOpenChange aufgerufen.
+10- DialogContent ist ein Container für den Inhalt des Dialogs.
 */}
