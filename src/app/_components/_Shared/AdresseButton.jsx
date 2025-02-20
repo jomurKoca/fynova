@@ -26,7 +26,7 @@ export default function AdresseButton() {
           >
             Gib hier deine Lieferadresse ein
           </Button>
-        </PopoverTrigger> kommen
+        </PopoverTrigger> 
         <PopoverContent
           // side="bottom"
           //align="center"
