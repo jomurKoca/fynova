@@ -30,3 +30,14 @@ export default function FooterMitAdresse() {
     </div>
   );
 }
+{/*
+1- showAdresseDialog ist ein Zustandsvariable, die den Status des Dialogs speichert. Der Dialog ist standardmäßig geschlossen bzw false.
+2- setShowAdresseDialog ist eine Funktion, die den Status des Dialogs ändert. Wenn der Button geklickt wird, wird der Dialog geöffnet, also wird der Status auf true gesetzt.
+3- handleButtonClick ist eine Funktion, die aufgerufen wird, wenn der Button geklickt wird. Es ändert den Status des Dialogs auf true.
+4- handleCloseDialog ist eine Funktion, die aufgerufen wird, wenn der Dialog geschlossen wird. Es ändert den Status des Dialogs auf false.
+5- Der Button hat einen onClick-Handler, der handleButtonClick-Funktion aufruft, wenn der Button geklickt wird.
+6- Der AdresseDialog-Komponente wird gezeigt, wenn showAdresseDialog true ist. Die onOpenChange-Prop wird verwendet, 
+um handleCloseDialog-Funktion zu übergeben, die aufgerufen wird, wenn der Dialog geschlossen wird.
+7- Wenn der Button geklickt wird,wird handleButtonClick-Funktion aufgerufen, die den Status des Dialogs auf true setzt.
+8- Wenn der Dialog geschlossen wird, wird handleCloseDialog-Funktion aufgerufen, die den Status des Dialogs auf false setzt.
+*/}
