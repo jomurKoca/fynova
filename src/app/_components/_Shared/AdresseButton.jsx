@@ -26,7 +26,7 @@ export default function AdresseButton() {
           >
             Gib hier deine Lieferadresse ein
           </Button>
-        </PopoverTrigger>
+        </PopoverTrigger> kommen
         <PopoverContent
           // side="bottom"
           //align="center"
@@ -41,7 +41,6 @@ export default function AdresseButton() {
   );
 }
 {/*
-
 1- Use Client dient dazu, dass der Code nur im Browser ausgeführt wird.
 2- useState ist ein Hook, der es uns ermöglicht, den Zustand in einer Funktion zu verwenden.
 3- useEffect ist ein weiterer Hook, der es uns ermöglicht, Seiteneffekte in Funktionskomponenten zu haben.
@@ -63,5 +62,4 @@ Es wird ein zusätzliches <div> innerhalb der Schaltfläche geben, was einige CS
 18- Ein Dialog ist ein Schnittstellenelement, das dazu dient, eine Nachricht anzuzeigen oder eine Aktion für den Benutzer auszuführen.
 Er funktioniert in der Regel als modales Fenster (ein Fenster, das den Zugriff auf den Hintergrundinhalt blockiert, bis es geschlossen wird).
 Es wird verwendet, um den Benutzer um eine Bestätigung zu bitten, ein Formular auszufüllen oder Informationen bereitzustellen.
-
 */}

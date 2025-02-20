@@ -59,4 +59,5 @@ export default function FooterSection() {
 3- _blank ist ein Attribut, das angibt, dass der Link in einem neuen Fenster geöffnet wird.
 4- nopenner verhindert, dass der Link auf die Seite zugreift, die ihn geöffnet hat.
 5- noreferrer verhindert, dass der Browser den Referrer-Header anfordert.
+6- Die Komponente wird in Layout.js importiert, damit sie auf jeder Seite angezeigt wird.
 */}

@@ -40,4 +40,5 @@ export default function FooterMitAdresse() {
 um handleCloseDialog-Funktion zu übergeben, die aufgerufen wird, wenn der Dialog geschlossen wird.
 7- Wenn der Button geklickt wird,wird handleButtonClick-Funktion aufgerufen, die den Status des Dialogs auf true setzt.
 8- Wenn der Dialog geschlossen wird, wird handleCloseDialog-Funktion aufgerufen, die den Status des Dialogs auf false setzt.
+9- Die Komponente wird in /Shop/layout.jsx importiert und gerendert.
 */}

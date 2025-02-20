@@ -1,8 +1,6 @@
-
 'use client';
-
-import React, { useState } from 'react';
-import Link from 'next/link';
+//import React, { useState } from 'react';
+//import Link from 'next/link';
 // import { Tooltip , TooltipContent , TooltipTrigger , TooltipProvider } from '@/components/ui/tooltip';
 import { Navigation, LayoutGrid, Menu, BadgePercent, User, Search } from 'lucide-react';
 import SearchIconInput from './SearchIconInput';
@@ -11,15 +9,7 @@ import { Button } from '@/components/ui/button';
 import AdresseButton from './AdresseButton';
 //import AdresseDialog from './AdresseDialog';
 
-
-
-
-
 export default function Header() {
-
-
-
-
   return (
     <section className="px-8 w-full shadow-md z-50">
       <div className="fixed left-0 w-full border-b border-gray-100 bg-white">
@@ -29,9 +19,7 @@ export default function Header() {
             <i>Fynova</i>
           </h1>
           <AdresseButton />
-          
         </div>
-
         {/* Menü ve Arama Alanı */}
         <div className="flex sm:flex-row gap-5 mb-2 items-center justify-between px-8">
           <div className="flex flex-row gap-5">
@@ -59,3 +47,7 @@ export default function Header() {
     </section>
   );
 }
+{/*
+  Die Header-Komppnente wird in /Shop/layout.jsx importiert und gerendert. Die Ikonen sind von Lucide-React.
+  Die AdresseButton-Komponente wird in der Header-Komponente gerendert.
+*/}

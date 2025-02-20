@@ -34,4 +34,5 @@ export default function Footer() {
   4- md:flex-row ermöglicht es uns, die Flexbox in eine Row umzuwandeln, wenn die Bildschirmgröße mindestens md ist
   5- sm:justify-center zentriert die Elemente in der Flexbox, wenn die Bildschirmgröße mindestens sm ist
   6- Mehrere Info für Bildschirmgrößen findest du in CSSTailwind.md Datei
+  7- Die Komponente wird in Layout.js importiert damit sie auf jeder Seite angezeigt wird
 */}
