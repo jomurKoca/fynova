@@ -34,7 +34,7 @@ export default function AdresseDialog({ open , onOpenChange}) {
 
         {/* Rechte Seite */}
         <div className="flex-1 p-6">
-          {/*<AdresseInput /> */}
+          
           <InputMitReactGoogle />
           <div className="hover:cursor-pointer hover:bg-slate-100 p-1">
             <div className="flex items-center gap-2 mt-4 "> 
