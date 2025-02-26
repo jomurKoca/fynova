@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import AdresseDialog from './AdresseDialog';
+import { Navigation } from 'lucide-react';
 
 export default function AdresseButton() {
   const [isAutoOpen, setIsAutoOpen] = useState(false); // 5 saniyelik popover için
@@ -22,8 +23,9 @@ export default function AdresseButton() {
           <Button
           onClick={() => setIsDialogOpen(true)} 
             style={{ outline: 'none', boxShadow: 'none' }}
-            className="p-6 w-auto rounded-3xl font-bold text-[#e2186f] bg-[#fde9f1] hover:bg-transparent"
+            className="p-5 w-auto rounded-3xl font-bold text-[#e2186f] bg-[#fde9f1] hover:bg-transparent"
           >
+            <Navigation className="w-6 h-6" />
             Gib hier deine Lieferadresse ein
           </Button>
         </PopoverTrigger> 

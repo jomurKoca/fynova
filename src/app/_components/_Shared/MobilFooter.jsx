@@ -42,3 +42,10 @@ export default function MobileFooter() {
     </div>
   );
 }
+{/*
+  Footer wird nur auf mobilen Geräten angezeigt
+  5 Buttons: Entdecken, Angebote, Warenkorb, Stöbern, Profil
+  fixiert am unteren Bildschirmrand
+  z-50 sorgt dafür, dass der Footer über allen anderen Elementen liegt
+  bottom -0 und left-0 sorgen dafür, dass der Footer am unteren Bildschirmrand fixiert ist
+*/}

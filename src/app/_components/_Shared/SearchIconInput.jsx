@@ -12,7 +12,7 @@ export default function SearchIconInput() {
   };
 
   const handleClickOutside = (event) => {
-    if (containerRef.current && !containerRef.current.contains(event.target)) {
+    if (containerRef.current && !containerRef.current.contains(event.target)) { 
       setIsOpen(false);
     }
   };
@@ -46,3 +46,12 @@ export default function SearchIconInput() {
     </div>
   );
 }
+{/*
+1- isOpen ist ein Zustandsvariable, die den Status des Suchfelds speichert. Das Suchfeld ist standardmäßig geschlossen bzw false.
+2- setIsOpen ist eine Funktion, die den Status des Suchfelds ändert. Wenn der Button geklickt wird, wird das Suchfeld geöffnet, also wird der Status auf true gesetzt.
+3- containerRef ist eine Referenzvariable, die auf das Container-Element verweist.
+4- toggleSearch ist eine Funktion, die aufgerufen wird, wenn der Button geklickt wird. Es ändert den Status des Suchfelds auf true oder false.
+5- handleClickOutside ist eine Funktion, die aufgerufen wird, wenn außerhalb des Containers geklickt wird. 
+Wenn der Container existiert und der Klick außerhalb des Containers erfolgt, wird das Suchfeld geschlossen.
+6-
+*/}
