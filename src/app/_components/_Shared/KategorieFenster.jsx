@@ -11,7 +11,7 @@ import { Button } from '@/components/ui/button';
 import { Menu , Home , Gift } from 'lucide-react';
 
 export default function KategorieFenster() {
-  const menuItems = [
+  const alleKategorien = [
     "Obst",
     "Cerealien & Aufstriche",
     "Joghurt & Desserts",
@@ -57,7 +57,7 @@ export default function KategorieFenster() {
       <SheetContent side="left" className="overflow-y-auto max-h-screen"> {/* Pencerenin sol taraftan açılmasını sağlar */}
         <SheetHeader>
           <SheetTitle className="text-[#e2186f]">
-            FY'NOVA
+            Fynova'
           </SheetTitle>
           {/*
             <SheetDescription>
@@ -81,7 +81,7 @@ export default function KategorieFenster() {
           <h1 className="block font-bold px-4 py-2 text-sm text-[#e2186f]">
             KATEGORIEN
           </h1>
-          {menuItems.map((item, index) => (
+          {alleKategorien.map((item, index) => (
             <a
               key={index}
               href="#"

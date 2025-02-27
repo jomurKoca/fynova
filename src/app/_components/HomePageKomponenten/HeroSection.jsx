@@ -10,7 +10,7 @@ export default function HeroSection() {
       <div>
         <h1 className="text-4xl font-extrabold mb-4" style={{color:'#002855'}}> Komplett einfach. Einfach komplett. </h1>
         <p className="text-lg mb-6 max-w-4xl">
-          Lehn dich entspannt zurück und bestelle alles, was du brauchst, wann du es brauchst. <i>Fynova</i> ist dein Lebensmittel Lieferservice: 
+          Lehn dich entspannt zurück und bestelle alles, was du brauchst, wann du es brauchst. <i>Fynova'</i> ist dein Lebensmittel Lieferservice: 
           Klicke dich durch unser vielfältiges Sortiment und wir bringen dir deinen Einkauf ganz einfach nach Hause.
         </p>
       </div>

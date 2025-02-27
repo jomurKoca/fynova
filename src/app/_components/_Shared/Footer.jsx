@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="py-4 border-t-2 border-blue-100 text-[#002855] ">
+    <footer className=" bg-[#f8f8f8] py-6 border-t-2  text-[#002855] bottom-0">
       <div className="flex flex-col-reverse md:flex-row sm:justify-center text-left mx-4 gap-4">
         <p>© 2025 Fynova</p> 
         <a href="/terms" className="hover:underline">
@@ -20,7 +20,7 @@ export default function Footer() {
           Cookies
         </a>
         
-        <a href="/terms" className="md:ml-72 ml-8 mb-5">
+        <a href="/terms" className="md:ml-72 ml-8 ">
           Deutschland - DE
         </a>
       </div>

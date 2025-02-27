@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <div className="bg-[#002855] h-16 flex justify-between items-center px-4 sm:flex-row sm:text-left"> 
             <div className="text-white sm:ml-20">
-                Bei <strong><i>Fynova</i></strong> bestellen und Rabatt sichern
+                Bei <strong><i>Fynova'</i></strong> bestellen und Rabatt sichern
             </div>
             <Button variant="outline" className="rounded-3xl h-12 px-8 font-extrabold sm:mr-24"> 
                 App laden 

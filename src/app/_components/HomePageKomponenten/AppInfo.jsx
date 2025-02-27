@@ -9,7 +9,7 @@ export default function AppInfo() {                    {/* */}
                         Vit vat hoch , schäi war's doch! Vit vat Hennadreck, unser ganzes Geld ist weg!
                     </h1>
                     <p className="text-lg mb-4" style={{color:'#002855'}}>
-                    Bestelle deine Lieblingsprodukte bequem per App. Jetzt <strong><i> fynova</i></strong> App downloaden.
+                    Bestelle deine Lieblingsprodukte bequem per App. Jetzt <strong><i> fynova'</i></strong> App downloaden.
                     </p>
                 </div>
                 <div className="flex sm:flex-col flex-row gap-2 ml-10">

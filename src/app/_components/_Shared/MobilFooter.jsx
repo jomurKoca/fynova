@@ -10,20 +10,20 @@ export default function MobileFooter() {
       <div className="flex justify-around items-center py-3 text-[#002855]">
 
             <button className="flex flex-col items-center hover:text-[#e2186f]">
-                <LayoutGrid size={24} />
-                <span className="text-sm">Entdecken</span>
+              <LayoutGrid size={24} />
+              <span className="text-sm">Entdecken</span>
             </button>
 
             <button className="flex flex-col items-center text-[#e2186f]">
-                <BadgePercent size={24} />
-                <span className="text-sm">Angebote</span>
+              <BadgePercent size={24} />
+              <span className="text-sm">Angebote</span>
             </button>
 
             <Link href="/Shop">              
-                <button className="flex flex-col items-center  hover:text-[#e2186f]">
-                    <ShoppingBasket size={24} />
-                    <span className="text-sm">Warenkorb</span>
-                </button>
+              <button className="flex flex-col items-center  hover:text-[#e2186f]">
+                <ShoppingBasket size={24} />
+                <span className="text-sm">Warenkorb</span>
+              </button>
             </Link>
            
             <Link href="/Shop">
@@ -35,8 +35,8 @@ export default function MobileFooter() {
 
            
             <button className="flex flex-col items-center text-gray-700 hover:text-[#e2186f]">
-                <User size={24} />
-                <span className="text-sm">Profil</span>
+              <User size={24} />
+              <span className="text-sm">Profil</span>
             </button>
       </div>
     </div>

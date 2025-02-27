@@ -9,7 +9,7 @@ import SearchIconInput from './SearchIconInput';
 import { Button } from '@/components/ui/button';
 import AdresseButton from './AdresseButton';
 import KategorieFenster from './KategorieFenster';
-
+import KategorieHeader from './KategorieHeader';
 
 export default function Header() {
   return (
@@ -21,7 +21,7 @@ export default function Header() {
           <div className="flex justify-start gap-24 border-b sm:border-none mb-5 sm:mb-0">
             <KategorieFenster />
             <h1 className=" ml-10 mb-2 text-center cursor-pointer text-3xl font-extrabold text-[#e2186f]">
-              <i>Fynova</i>
+              <i>Fynova'</i>
             </h1>
           </div>
           <div className="ml-4 sm:ml-0">
@@ -32,11 +32,7 @@ export default function Header() {
         {/* Menü ve Arama Alanı */}
         <div className="flex sm:flex-row gap-5 mb-2 items-center justify-between px-8">
           <div className="flex flex-row gap-5">
-            <Button className="hidden sm:flex rounded-3xl gap-2 bg-[#f4f7fa] text-[#002855] hover:text-[#e2186f] hover:bg-inherit">
-              <Menu /> Kategorien
-            </Button>
-            
-
+    	      <KategorieHeader />
             <Button className="hidden sm:flex bg-[#fde9f1] text-[#e2186f] font-bold rounded-3xl hover:bg-inherit w-36">
               <LayoutGrid /> Entdecken
             </Button>

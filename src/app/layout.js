@@ -6,6 +6,8 @@ import FooterSection from "./_components/_Shared/FooterSection";
 import FooterMitAdresse from "./_components/_Shared/FooterMitAdresse";
 //import Header from "./_components/_Shared/Header";
 //import { usePathname } from 'next/navigation';
+import Header from "./_components/_Shared/Header"; 
+import MobileFooter from "./_components/_Shared/MobilFooter";
 
 
 const geistSans = Geist({
@@ -30,8 +32,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Header />
         <main>{children}</main>
         {/*{pathname === '/Shop' && <FooterMitAdresse />} FooterMitAdresse bileşeni eklendi */}
+        <FooterMitAdresse />
+        <MobileFooter />
         <FooterSection />
         <Footer />
       </body>

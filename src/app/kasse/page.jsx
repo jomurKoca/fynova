@@ -15,11 +15,7 @@ export default function Kasse() {
   */}
 
   return (
-    <div className="p-4 flex justify-center">
-      <h2 className="text-xl font-bold mb-4">Kasse</h2>
-      
-      <AdresseInput />
-      <KategorieFenster />
+    <div className=" h-screen p-4 flex justify-center">
       {/*<AdresseInput onSelect={handleAddressSelect} />
         {selectedAddress && (
           <p className="mt-2 text-sm text-gray-600">Seçilen Adres: {selectedAddress}</p>
