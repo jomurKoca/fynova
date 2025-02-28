@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/sheet";
 import { Button } from '@/components/ui/button';
 import { Menu , Home , Gift } from 'lucide-react';
+import Link from 'next/link';
 
 export default function KategorieFenster() {
   const alleKategorien = [
@@ -56,8 +57,10 @@ export default function KategorieFenster() {
       </SheetTrigger>
       <SheetContent side="left" className="overflow-y-auto max-h-screen"> {/* Pencerenin sol taraftan açılmasını sağlar */}
         <SheetHeader>
-          <SheetTitle className="text-[#e2186f]">
-            Fynova'
+          <SheetTitle className="text-[#e2186f] cursor-pointer">
+            <Link href="/Shop">
+              <strong><i>Fynova'</i></strong>
+            </Link>
           </SheetTitle>
           {/*
             <SheetDescription>

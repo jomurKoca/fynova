@@ -6,7 +6,7 @@ export default function FooterSection() {
   return (
     <section className="bg-[#f8f8f8] py-10">
       <div className="sm:mx-10 mx-4 mr-40 gap-8 flex flex-col md:flex-row sm:justify-between">
-        <h1 className="text-4xl font-bold text-[#e2186f]"><i>Fynova'</i></h1>
+        <h1 className="text-4xl font-bold text-[#e2186f]"> <strong><i>Fynova'</i></strong></h1>
         
         <div className="text-[#002855]">
           <h1 className="font-extrabold text-2xl">About</h1>

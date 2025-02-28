@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className=" bg-[#f8f8f8] py-6 border-t-2  text-[#002855] bottom-0">
       <div className="flex flex-col-reverse md:flex-row sm:justify-center text-left mx-4 gap-4">
-        <p>© 2025 Fynova</p> 
+        <p>© 2025 <i>Fynova'</i></p> 
         <a href="/terms" className="hover:underline">
           Impressum
         </a>

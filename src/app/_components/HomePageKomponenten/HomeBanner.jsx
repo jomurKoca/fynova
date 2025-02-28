@@ -7,7 +7,7 @@ export default function HomeBanner() {
             
             <div className="sm:ml-64" style={{width:'420px'}}>
                 <h1 className="px-5 text-4xl sm:text-4xl mb-20 font-extrabold leading-tight" style={{ color: '#e2186f'}}>
-                    <i>Fynova'</i>
+                    <strong><i>Fynova'</i></strong>
                 </h1>
                 <h1 className="text-center sm:text-left px-5 text-4xl sm:text-5xl font-extrabold leading-tight" style={{ color: '#002855' }}>
                     Deine Lebensmittel, gleich geliefert

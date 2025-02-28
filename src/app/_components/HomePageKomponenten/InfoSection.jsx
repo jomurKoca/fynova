@@ -11,7 +11,7 @@ export default function InfoSection() {
             
             <div className="flex justify-center text-center">
                 <h1 className="text-4xl font-extrabold" style={{color:'#002855'}}>
-                        Gute Gründe für Fynova'
+                        Gute Gründe für <strong><i>Fynova'</i></strong>
                 </h1>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-10 mb-10 mx-10">
@@ -56,7 +56,7 @@ export default function InfoSection() {
                         In Sekunden bestellt. In Minuten geliefert.
                     </h1>
                     <p>
-                        <i>Fynova'</i> liefert bereits in über 100 Städten. Deine Stadt ist noch nicht dabei? Melde dich an und bleib up-to-date.
+                        <strong><i>Fynova'</i></strong> liefert bereits in über 100 Städten. Deine Stadt ist noch nicht dabei? Melde dich an und bleib up-to-date.
                     </p>
                     <Link href="/Shop">
                         <Button className="font-bold mt-10" style={{backgroundColor:'#e2186f'}}>Meine Adresse überprüfen</Button>

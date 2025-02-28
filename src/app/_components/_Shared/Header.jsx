@@ -10,6 +10,7 @@ import { Button } from '@/components/ui/button';
 import AdresseButton from './AdresseButton';
 import KategorieFenster from './KategorieFenster';
 import KategorieHeader from './KategorieHeader';
+import Link from 'next/link';
 
 export default function Header() {
   return (
@@ -20,9 +21,11 @@ export default function Header() {
           
           <div className="flex justify-start gap-24 border-b sm:border-none mb-5 sm:mb-0">
             <KategorieFenster />
-            <h1 className=" ml-10 mb-2 text-center cursor-pointer text-3xl font-extrabold text-[#e2186f]">
-              <i>Fynova'</i>
-            </h1>
+            <Link href="/Shop">
+              <h1 className=" ml-10 mb-2 text-center cursor-pointer text-3xl font-extrabold text-[#e2186f]">
+                <strong><i>Fynova'</i></strong>
+              </h1>
+            </Link>
           </div>
           <div className="ml-4 sm:ml-0">
             <AdresseButton/>
