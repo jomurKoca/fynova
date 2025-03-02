@@ -14,8 +14,8 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <section className="w-full">
-      <div className="shadow-md fixed left-0 w-full border-b border-gray-100 bg-white">
+    <section className="w-full ">
+      <div className="shadow-md fixed left-0 w-full z-50 border-b border-gray-100 bg-white">
         
         <div className="flex flex-col sm:flex-row my-4 gap-2 sm:gap-8">
           
@@ -60,5 +60,6 @@ export default function Header() {
 {/*
   Die Header-Komppnente wird in /Shop/layout.jsx importiert und gerendert. Die Ikonen sind von Lucide-React.
   Die AdresseButton-Komponente wird in der Header-Komponente gerendert.
+  z-50 bedeutet, dass das Element immer im Vordergrund ist.
   hidden sm:flex bedeutet, dass das Element auf kleinen Bildschirmen ausgeblendet wird und auf größeren Bildschirmen angezeigt wird.
 */}
