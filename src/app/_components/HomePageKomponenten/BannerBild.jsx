@@ -1,9 +1,9 @@
 import React from 'react' // import React from 'react' ist in React 17+ nicht mehr erforderlich
 export default function BannerBild() {
   return (
-    <section className="w-full h-auto">
-      <div> 
-      <img src="/fotos/14.jpg" alt="Banner" className="w-full h-auto" />
+    <section >
+      <div className="flex justify-center"> 
+      <img src="/fotos/14.jpg" alt="Banner" />
       </div>
     </section>
   );
