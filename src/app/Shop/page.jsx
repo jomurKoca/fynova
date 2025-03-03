@@ -1,6 +1,6 @@
 import React from 'react'
 // import KategorieHeader from '../_components/_Shared/KategorieHeader';
-import AktionsKarte from '../_components/ui/aktionsKarte';
+import AktionsKarte from '../_components/ui/AktionsKarte';
 import AngebotsKarusell from '../_components/ui/AngebotsKarusell';
 import NeuBeiFynova from '../_components/_Shared/NeuBeiFynova';
 import KategorienKarusell from '../_components/_Shared/KategorienKarusell';

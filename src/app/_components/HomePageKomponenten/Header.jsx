@@ -7,12 +7,12 @@ export default function Header() {
             <div className="text-white sm:ml-20">
                 Bei <strong><i>Fynova'</i></strong> bestellen und Rabatt sichern
             </div>
-            <Button variant="outline" className="rounded-3xl h-12 px-8 font-extrabold sm:mr-24"> 
+            <Button variant="outline" className="rounded-3xl h-12 px-8 text-[#002855] font-extrabold sm:mr-24 hover:bg-[#fdd8e9]"> 
                 App laden 
             </Button>
         </div>
     );
-}
+}   
 
 {/*
 1- In Tailwind CSS wird jeder Befehl, der in className geschrieben wird, als eine Klasse betrachtet. 

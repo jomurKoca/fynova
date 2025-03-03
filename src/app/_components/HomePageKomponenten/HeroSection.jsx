@@ -16,7 +16,7 @@ export default function HeroSection() {
       </div>
       <CategorySection />
       <Link href="/Shop">
-        <Button className=" w-64 p-6 font-bold " style={{backgroundColor:'#e2186f' }}> 
+        <Button className=" w-64 p-6 font-bold bg-[#e2186f] hover:bg-[#002855] border-none"> 
           Sortiment entdecken 
         </Button>
       </Link>

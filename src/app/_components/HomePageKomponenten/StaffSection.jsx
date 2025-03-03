@@ -18,7 +18,7 @@ export default function StaffSection() {
             Rabatt auf jeden Einkauf, gratis Ausrüstung, Telefonvergütung, 
             Bonusmöglichkeiten und vielem mehr.
           </p>
-          <Button className="font-bold w-48 bg-[#e2186f] p-6">
+          <Button className="font-bold w-48 bg-[#e2186f] p-6 hover:bg-[#e2186f] hover:text-[#002855] border-none">
             Jetzt durchstarten
           </Button>
         </div>

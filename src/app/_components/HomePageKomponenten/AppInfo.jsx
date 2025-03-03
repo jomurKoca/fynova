@@ -8,11 +8,11 @@ export default function AppInfo() {                    {/* */}
                     <h1 className="sm:text-4xl text-2xl text-center font-extrabold mb-4" style={{color:'#002855'}}>
                         Vit vat hoch , schäi war's doch! Vit vat Hennadreck, unser ganzes Geld ist weg!
                     </h1>
-                    <p className="text-lg mb-4" style={{color:'#002855'}}>
-                    Bestelle deine Lieblingsprodukte bequem per App. Jetzt <strong><i> fynova'</i></strong> App downloaden.
+                    <p className="text-lg mb-4 text-center" style={{color:'#002855'}}>
+                    Bestelle deine Lieblingsprodukte bequem per App. Jetzt <strong><i> Fynova'</i></strong> App downloaden.
                     </p>
                 </div>
-                <div className="flex sm:flex-col flex-row gap-2 ml-10">
+                <div className="flex sm:flex-col flex-row gap-2 sm:ml-10 ml-20">
                     <div className="mb-4">
                         <a
                             href="https://apps.apple.com/store"

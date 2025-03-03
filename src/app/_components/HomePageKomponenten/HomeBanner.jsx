@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 
 export default function HomeBanner() {
     return ( 
-        <section className="h-auto sm:py-20 py-10 sm:text-left flex flex-col sm:flex-row items-center sm:items-center" style={{ backgroundColor: '#fcb2d3'}}>
+        <section className="flex flex-col sm:flex-row justify-center items-center sm:items-center h-auto sm:py-20 py-10" style={{ backgroundColor: '#fcb2d3'}}>
             
-            <div className="sm:ml-64" style={{width:'420px'}}>
+            <div className="mx-20" style={{width:'420px'}}>
                 <h1 className="px-5 text-4xl sm:text-4xl mb-20 font-extrabold leading-tight" style={{ color: '#e2186f'}}>
                     <strong><i>Fynova'</i></strong>
                 </h1>
@@ -19,14 +19,14 @@ export default function HomeBanner() {
                 </p>
                 <Link href="/Shop">
                     <div className="flex justify-center mt-6">
-                        <Button  className="font-bold py-3 px-6 rounded-lg shadow-md" style={{ backgroundColor: '#e2186f' }}>
+                        <Button  className="w-72 font-bold py-3 px-6 rounded-lg shadow-md hover:text-[#002855] hover:bg-white border-none bg-[#e2186f]">
                             Jetzt einkaufen
                         </Button>
                     </div>
                 </Link>
                 
             </div>
-            <div className="mt-10 sm:mt-0 sm:ml-10">
+            <div className="mt-10 sm:mt-0 ">
                 <img 
                     src="/fotos/bannerbild3.jpg" 
                     alt="Supermarkt-Produkte" 

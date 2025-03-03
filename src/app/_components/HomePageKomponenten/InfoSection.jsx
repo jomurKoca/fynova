@@ -43,13 +43,13 @@ export default function InfoSection() {
             
             <div className="flex justify-center mb-40">
                 <Link href="/Shop">
-                    <Button className="font-bold px-10 py-5" style={{backgroundColor:'#e2186f'}}>
+                    <Button className="font-bold px-10 py-5 hover:text-[#002855]" style={{backgroundColor:'#e2186f'}}>
                         Jetzt einkaufen
                     </Button>
                 </Link>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 sm:ml-10 ml-10">
                 <div className="flex flex-col items-center justify-center text-center max-w-96 sm:ml-40 ml-5">
                     
                     <h1 className="text-4xl font-extrabold mb-5" style={{color:'#002855'}}>
@@ -59,7 +59,7 @@ export default function InfoSection() {
                         <strong><i>Fynova'</i></strong> liefert bereits in über 100 Städten. Deine Stadt ist noch nicht dabei? Melde dich an und bleib up-to-date.
                     </p>
                     <Link href="/Shop">
-                        <Button className="font-bold mt-10" style={{backgroundColor:'#e2186f'}}>Meine Adresse überprüfen</Button>
+                        <Button className="font-bold mt-10 hover:text-[#002855]" style={{backgroundColor:'#e2186f'}}>Meine Adresse überprüfen</Button>
                     </Link>
                 </div>
                 
