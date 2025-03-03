@@ -9,7 +9,7 @@ export default function StaffSection() {
           <img src="/fotos/19.jpg" alt="rider" />
         </div>
 
-        <div className="md:w-1/2 flex flex-col justify-center py-10 text-center items-center mx-16 mb-20">
+        <div className="md:w-1/2 flex flex-col justify-center text-center items-center mx-8 sm:px-48 my-20">
           <h1 className="text-white font-extrabold text-4xl mb-10">
             Schließe dich unserem Rider-Team an!
           </h1>

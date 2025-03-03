@@ -49,8 +49,8 @@ export default function InfoSection() {
                 </Link>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2">
-                <div className="flex flex-col items-center justify-center text-center max-w-96 sm:ml-40 ml-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 justify-center items-center px-10 sm:px-64">
+                <div className="flex flex-col items-center justify-center text-center">
                     
                     <h1 className="text-4xl font-extrabold mb-5" style={{color:'#002855'}}>
                     Bestellung in Sekunden. Lieferung in Minuten.
@@ -63,11 +63,11 @@ export default function InfoSection() {
                     </Link>
                 </div>
                 
-                <div className="mt-10 sm:mt-0 ml-5">
+                <div className="mt-10 sm:mt-0">
                     <img 
                     src="/fotos/17.png" 
                     alt="Earth" 
-                    className="rounded-lg  max-w-96 h-auto"/>
+                    className="rounded-lg h-auto"/>
                 </div>
             </div>
 
