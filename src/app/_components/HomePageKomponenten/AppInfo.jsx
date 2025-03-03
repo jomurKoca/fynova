@@ -3,7 +3,7 @@ import React from 'react';
 export default function AppInfo() {                    {/* */}
   return (
         <section className="flex flex-col sm:flex-row items-center justify-between"> 
-            <div className="flex flex-col sm:items-center sm:w-1/2 sm:text-center mx-8 space-y-4">
+            <div className="flex flex-col sm:items-center items-center sm:w-1/2 sm:text-center mx-8 space-y-4">
                 <div>
                     <h1 className="sm:text-4xl text-2xl text-center font-extrabold mb-4" style={{color:'#002855'}}>
                         Vit vat hoch , schäi war's doch! Vit vat Hennadreck, unser ganzes Geld ist weg!
@@ -12,7 +12,7 @@ export default function AppInfo() {                    {/* */}
                     Bestelle deine Lieblingsprodukte mühelos mit der App. Jetzt! <strong><i> Fynova'</i></strong> App downloaden.
                     </p>
                 </div>
-                <div className="flex sm:flex-col flex-row gap-2 ml-4">
+                <div className="flex sm:flex-col flex-row gap-1">
                     <div className="mb-4">
                         <a
                             href="https://apps.apple.com/store"
@@ -22,7 +22,7 @@ export default function AppInfo() {                    {/* */}
                             <img
                             src="/fotos/AppleIcon.svg"
                             alt="appleicon"
-                            className="h-12 max-w-64"
+                            className="h-12 w-36"
                             />
                         </a>
                     </div>
