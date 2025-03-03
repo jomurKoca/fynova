@@ -10,12 +10,12 @@ export default function HomeBanner() {
                     <strong><i>Fynova'</i></strong>
                 </h1>
                 <h1 className="text-center sm:text-left px-5 text-4xl sm:text-5xl font-extrabold leading-tight" style={{ color: '#002855' }}>
-                    Deine Lebensmittel, gleich geliefert
+                    Deine Lebensmittel, sofort geliefert
                 </h1>
                 <p className="text-center sm:text-left px-5 mt-4 text-lg sm:text-xl" style={{ color: '#002855'}}>
-                    Ein ganzer Supermarkt in nur einer App. So kannst du deine Lebensmittel online bestellen.
-                    <strong><i>Fynova'</i></strong> liefert Supermarkt-Produkte – von A wie Apfel bis Z wie Zahnpasta – bequem nach Hause.
-                    In Minuten. Bis zur Tür.
+                    Ein kompletter Supermarkt in einer App. So einfach bestellst du deine Lebensmittel online. <strong><i>Fynova'</i></strong> 
+                    bringt Supermarkt-Produkte direkt zu dir nach Hause – von Apfel bis Zimt.
+                    In wenigen Minuten. Bis an deine Tür.
                 </p>
                 <Link href="/Shop">
                     <div className="flex justify-center mt-6">

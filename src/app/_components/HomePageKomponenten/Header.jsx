@@ -9,7 +9,7 @@ export default function Header() {
                 Bei <strong><i>Fynova'</i></strong> bestellen und Rabatt sichern
             </div>
             <Link href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
-            <Button variant="outline" className="rounded-3xl h-12 px-8 text-[#002855] font-extrabold sm:mr-24 hover:bg-[#fdd8e9]"> 
+            <Button variant="outline" className="rounded-3xl h-12 px-8 text-[#002855] font-extrabold sm:mr-24 hover:bg-[#f4f7fa]"> 
                 App laden 
             </Button>
             </Link>

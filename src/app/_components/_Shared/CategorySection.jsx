@@ -10,7 +10,7 @@ const CategorySection = () => {
     ];
 
     return ( // return bilesenin render edilecegi jsx yapisini baslatir !!! Wichtig 
-        <section className="py-10 px-5">
+        <section className="py-10 px-2">
             
             <div className="flex flex-wrap justify-center">
                 {categories.map((category, index) => (

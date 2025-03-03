@@ -11,32 +11,32 @@ export default function InfoSection() {
             
             <div className="flex justify-center text-center">
                 <h1 className="text-4xl font-extrabold" style={{color:'#002855'}}>
-                        Gute Gründe für <strong><i>Fynova'</i></strong>
+                Valide Gründe, die für <strong><i>Fynova'</i></strong> sprechen.
                 </h1>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-10 mb-10 mx-10">
                 <div className="flex flex-col items-center justify-center text-center">
                     <ShoppingBasket size={80} color="#e2186f" strokeWidth={1}/>
-                    <h2 style={{color:'#002855'}} className="font-bold text-center">Täglich neue Produkte</h2>
-                    <p className="text-center">Entdecke 2600+ Lieblingsprodukte und Essentials von REWE, mit Neuzugängen jeden Tag!</p>
+                    <h2 style={{color:'#002855'}} className="font-bold text-center">Täglich frische Produkte</h2>
+                    <p className="text-center">Erkunde 2900+ Favoriten und essentielle Produkte von Fynova', mit täglichen Neuzugängen!</p>
                 </div>
 
                 <div className="flex flex-col items-center justify-center text-center">
                     <AlarmClockPlus size={80} color="#e2186f" strokeWidth={1} />
-                    <h2 style={{color:'#002855'}} className="font-bold">Die Schnellsten in der City</h2>
-                    <p>Unsere Rider liefern deine Einkäufe schnell und stressfrei in Minuten.</p>
+                    <h2 style={{color:'#002855'}} className="font-bold">Die schnellsten Lieferungen in der City</h2>
+                    <p>Unsere Lieferfahrer sorgen dafür, dass deine Einkäufe in Minuten schnell und entspannt ankommen.</p>
                 </div>
 
                 <div className="flex flex-col items-center justify-center text-center">
                     <Grape size={80} color="#e2186f" strokeWidth={1} />
                     <h2 style={{color:'#002855'}} className="font-bold">Frische-Garantie</h2>
-                    <p>Wir vertrauen auf unsere Qualitätsstandards: Was du nicht frisch bekommst, bekommst du umsonst!</p>
+                    <p>Wir setzen auf höchste Qualitätsstandards. Wenn du nicht frische Ware erhältst, ist sie kostenlos!</p>
                 </div>
 
                 <div className="flex flex-col items-center justify-center text-center">
                     <BadgeEuro size={80} color="#e2186f" strokeWidth={1} />
-                    <h2 style={{color:'#002855'}} className="font-bold ">Rabatte non-stop</h2>
-                    <p>Spar bares Geld bei jedem Einkauf dank täglicher Deals, Spar-Bundles und unserem großen "Dauergünstig" Sortiment.</p>
+                    <h2 style={{color:'#002855'}} className="font-bold ">Ständige Preisnachlässe</h2>
+                    <p>Sichere dir bares Geld bei jedem Einkauf mit täglichen Angeboten, Spar-Bundles und unserem umfangreichen 'Dauergünstig'-Sortiment.</p>
                 </div>
 
             </div>
@@ -53,10 +53,10 @@ export default function InfoSection() {
                 <div className="flex flex-col items-center justify-center text-center max-w-96 sm:ml-40 ml-5">
                     
                     <h1 className="text-4xl font-extrabold mb-5" style={{color:'#002855'}}>
-                        In Sekunden bestellt. In Minuten geliefert.
+                    Bestellung in Sekunden. Lieferung in Minuten.
                     </h1>
                     <p>
-                        <strong><i>Fynova'</i></strong> liefert bereits in über 100 Städten. Deine Stadt ist noch nicht dabei? Melde dich an und bleib up-to-date.
+                        <strong><i>Fynova'</i></strong>liefert schon in mehr als 99 Städten. Deine Stadt ist nicht dabei? Melde dich an, um auf dem Laufenden zu bleiben!
                     </p>
                     <Link href="/Shop">
                         <Button className="font-bold mt-10 hover:text-[#002855]" style={{backgroundColor:'#e2186f'}}>Meine Adresse überprüfen</Button>
@@ -72,7 +72,9 @@ export default function InfoSection() {
             </div>
 
             <div className="mt-20">
+                <Link href="/Shop">
                 <DieSteadte />
+                </Link>
             </div>
 
 

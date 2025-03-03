@@ -18,7 +18,7 @@ export default function FooterMitAdresse() {
     <div className="fixed sm:bottom-0 bottom-14 z-50 w-full flex items-center bg-slate-100 rounded-lg p-4 cursor-pointer">
       <img className="max-h-10" src="/fotos/footermap.png" alt="map" />
       <p className="hidden sm:flex text-[#002855] font-sm ml-4">
-        Gib deine Adresse ein, um Produkte in deiner Nähe zu sehen
+      Gib deine Adresse an, um die Produkte in deiner Umgebung zu entdecken.
       </p>
       <Button
         className="ml-auto bg-[#002855] rounded-3xl text-white hover:bg-[#e2186f]"
