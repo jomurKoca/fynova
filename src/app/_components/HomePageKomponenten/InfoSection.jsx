@@ -49,7 +49,7 @@ export default function InfoSection() {
                 </Link>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 sm:ml-10 ml-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2">
                 <div className="flex flex-col items-center justify-center text-center max-w-96 sm:ml-40 ml-5">
                     
                     <h1 className="text-4xl font-extrabold mb-5" style={{color:'#002855'}}>
@@ -63,7 +63,7 @@ export default function InfoSection() {
                     </Link>
                 </div>
                 
-                <div className="mt-10 sm:mt-0 sm:ml-10 ml-8">
+                <div className="mt-10 sm:mt-0 ml-5">
                     <img 
                     src="/fotos/17.png" 
                     alt="Earth" 

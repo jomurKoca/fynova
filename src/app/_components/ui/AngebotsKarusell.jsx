@@ -18,7 +18,7 @@ export default function AngebotsKarusell() {
         loop={false}
         slidesPerGroup={8} // Her kaydırmada 8 kart ilerler
         breakpoints={{
-          320: { slidesPerView: 1, slidesPerGroup: 1 }, // Küçük ekranlar için 1 kart
+          320: { slidesPerView: 2, slidesPerGroup: 2}, // Küçük ekranlar için 1 kart
           480: { slidesPerView: 2, slidesPerGroup: 2 }, // Küçük ekranlar için 2 kart
           640: { slidesPerView: 3, slidesPerGroup: 3 }, // Orta ekranlar için 3 kart
           768: { slidesPerView: 4, slidesPerGroup: 4 }, // Orta ekranlar için 4 kart

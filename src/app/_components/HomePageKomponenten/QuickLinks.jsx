@@ -5,7 +5,7 @@ import { cities } from '../_Shared/DieSteadte';
 export default function QuickLinks() {
   return (
     <section className="bg-[#fde9f1] py-16">
-      <div className=" ml-20 grid grid-cols-1 sm:grid-cols-3">
+      <div className=" ml-8 sm:ml-10 grid grid-cols-1 sm:grid-cols-3">
         {cities.map((city) => (
           <div key={city}>
             <a href="/Shop" className="text-[#e2186f] text-s font-medium hover:underline">

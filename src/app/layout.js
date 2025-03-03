@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
         {pathname !== '/' && <Header />}
         <main>{children}</main>
         {pathname !== '/' && <FooterMitAdresse />} 
-        <MobileFooter />
+        {pathname !== '/' && <MobileFooter />}
         <FooterSection />
         <Footer />
       </body>

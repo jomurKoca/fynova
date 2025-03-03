@@ -12,7 +12,7 @@ export default function AppInfo() {                    {/* */}
                     Bestelle deine Lieblingsprodukte bequem per App. Jetzt <strong><i> Fynova'</i></strong> App downloaden.
                     </p>
                 </div>
-                <div className="flex sm:flex-col flex-row gap-2 sm:ml-10 ml-20">
+                <div className="flex sm:flex-col flex-row gap-2 ml-4">
                     <div className="mb-4">
                         <a
                             href="https://apps.apple.com/store"
