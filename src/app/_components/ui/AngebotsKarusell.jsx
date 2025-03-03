@@ -29,7 +29,7 @@ export default function AngebotsKarusell() {
         {Array.from({ length: 32 }).map((_, index) => (
           <SwiperSlide key={index}>
             <Card className="p-4 relative w-52 h-52 bg-[#f8f8f8] group-[.group]:bg-white"> {/* group sinifini bilesene gecirdim import ettigim sayfada bg degistirebilmek icin*/}
-              <CirclePlus className="absolute bottom-2 right-2 text-[#e2186f] cursor-pointer" size={36} />
+              <CirclePlus className="absolute bottom-2 left-2 text-[#e2186f] cursor-pointer" size={36} />
             </Card>
           </SwiperSlide>
         ))}

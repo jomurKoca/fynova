@@ -19,10 +19,10 @@ export default function Header() {
         
         <div className="flex flex-col sm:flex-row my-4 gap-2 sm:gap-8">
           
-          <div className="flex justify-start gap-24 border-b sm:border-none mb-5 sm:mb-0">
+          <div className="flex justify-start gap-20 border-b sm:border-none mb-5 sm:mb-0">
             <KategorieFenster />
             <Link href="/Shop">
-              <h1 className=" ml-10 mb-2 text-center cursor-pointer text-3xl font-extrabold text-[#e2186f]">
+              <h1 className=" ml-0 sm:ml-10 mb-2 text-center cursor-pointer text-3xl font-extrabold text-[#e2186f]">
                 <strong><i>Fynova'</i></strong>
               </h1>
             </Link>
