@@ -3,10 +3,10 @@ import React from 'react';
 export default function AppInfo() {                    {/* */}
   return (
         <section className="flex flex-col sm:flex-row items-center justify-between"> 
-            <div className="flex flex-col sm:items-center items-center sm:w-1/2 sm:text-center mx-8 space-y-4">
+            <div className="flex flex-col sm:items-center items-center sm:w-1/2 sm:text-center mx-6 space-y-4">
                 <div>
                     <h1 className="sm:text-4xl text-2xl text-center font-extrabold mb-4" style={{color:'#002855'}}>
-                        Vit vat hoch , schäi war's doch! Vit vat Hennadreck, unser ganzes Geld ist weg!
+                        Vit vat hoch , schäi war's doch! <br /> Vit vat Hennadreck, <br />unser ganzes Geld ist weg!
                     </h1>
                     <p className="text-lg mb-4 text-center" style={{color:'#002855'}}>
                     Bestelle deine Lieblingsprodukte mühelos mit der App. Jetzt! <strong><i> Fynova'</i></strong> App downloaden.

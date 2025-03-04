@@ -7,9 +7,9 @@ export default function HeroSection() {
   return ( 
     <section className="flex flex-col items-center justify-center text-center mt-10 mb-20 py-6">
 
-      <div>
+      <div className="max-w-4xl">
         <h1 className="text-4xl font-extrabold mb-4" style={{color:'#002855'}}> Völlig unkompliziert, Total simpel </h1>
-        <p className="text-lg mb-6 max-w-4xl">
+        <p className="text-lg mb-6 mx-6 sm:mx-0">
         Lehn dich entspannt zurück und bestelle genau das, was du brauchst – jederzeit. <strong><i>Fynova'</i></strong> ist dein Lebensmittel-Lieferservice:
         Entdecke unser vielfältiges Sortiment und lass dir deinen Einkauf bequem nach Hause liefern.
         </p>

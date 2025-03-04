@@ -56,7 +56,7 @@ export default function InfoSection() {
                     Bestellung in Sekunden. Lieferung in Minuten.
                     </h1>
                     <p>
-                        <strong><i>Fynova'</i></strong>liefert schon in mehr als 99 Städten. Deine Stadt ist nicht dabei? Melde dich an, um auf dem Laufenden zu bleiben!
+                        <strong><i>Fynova'</i></strong> liefert schon in mehr als 99 Städten. Deine Stadt ist nicht dabei? Melde dich an, um auf dem Laufenden zu bleiben!
                     </p>
                     <Link href="/Shop">
                         <Button className="font-bold mt-10 hover:text-[#002855]" style={{backgroundColor:'#e2186f'}}>Meine Adresse überprüfen</Button>
@@ -72,9 +72,7 @@ export default function InfoSection() {
             </div>
 
             <div className="mt-20">
-                <Link href="/Shop">
                 <DieSteadte />
-                </Link>
             </div>
 
 

@@ -1,7 +1,8 @@
 'use client'
 import { Button } from '@/components/ui/button'
-import { Kode_Mono } from 'next/font/google'
+// import { Kode_Mono } from 'next/font/google'
 import { useState } from 'react'
+import Link from 'next/link'
 
 
 export const cities = [
@@ -78,7 +79,9 @@ export default function DieSteadte() {
     <div className="flex flex-wrap gap-2 justify-center ">
       {cities.slice(0, showMore ? cities.length : 13).map((city) => (
         <div key={city} className=" justify-center text-center rounded-md border w-full sm:w-48 p-2 mx-2 sm:mx-0 cursor-pointer" style={{backgroundColor:'#f4f7fa' , color:'#002855'}}>
-          {city}
+          <Link href="./Shop"> 
+            {city}
+          </Link>
         </div>
       ))}
       <Button
