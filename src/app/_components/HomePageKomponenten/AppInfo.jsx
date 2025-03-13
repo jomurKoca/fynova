@@ -15,7 +15,7 @@ export default function AppInfo() {                    {/* */}
                 <div className="flex sm:flex-col flex-row gap-1">
                     <div className="mb-4">
                         <a
-                            href="https://apps.apple.com/store"
+                            href="https://www.apple.com/de/app-store/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >

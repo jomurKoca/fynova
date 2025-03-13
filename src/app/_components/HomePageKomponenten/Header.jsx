@@ -8,7 +8,7 @@ export default function Header() {
             <div className="text-white sm:ml-20">
                 Bei <strong><i>Fynova'</i></strong> bestellen und Rabatt sichern
             </div>
-            <Link href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.apple.com/de/app-store/" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" className="rounded-3xl h-12 px-8 text-[#002855] font-extrabold sm:mr-24 hover:bg-[#f4f7fa]"> 
                 App laden 
             </Button>

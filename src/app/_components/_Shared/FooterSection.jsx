@@ -36,7 +36,7 @@ export default function FooterSection() {
         <div className="mr-32">
           <h1 className="font-extrabold text-2xl mb-4 text-[#002855]">Apps</h1>
           <a
-            href="https://apps.apple.com/"
+            href="https://www.apple.com/de/app-store/"
             target="_blank"
             rel="noopener noreferrer"
           >
