@@ -13,7 +13,7 @@ export default function FooterSection() {
           <Link target='_blank' href="https://github.com/jomurKoca" className="hover:underline">
             <p>Jobs</p>
           </Link>
-          <Link href="https://www.linkedin.com/in/omurkoca/" className="hover:underline">
+          <Link href="https://www.linkedin.com/in/omurkoca/" target="_blank" className="hover:underline">
             <p>FAQ</p>
           </Link>
         </div>
@@ -21,13 +21,13 @@ export default function FooterSection() {
         <div className="text-[#002855]">
           <h1 className="font-extrabold text-2xl mb-4">Social</h1>
           <div className="flex space-x-4">
-            <a alt="Facebook" href="https://github.com/jomurKoca">
+            <a alt="Facebook" href="https://github.com/jomurKoca" target="_blank">
               <Facebook />
             </a>
-            <a alt="Instagram" href="https://www.linkedin.com/in/omurkoca/">
+            <a alt="Instagram" href="https://www.linkedin.com/in/omurkoca/" target="_blank">
               <Instagram />
             </a>
-            <a alt="Linkedin" href="https://www.linkedin.com/in/omurkoca/">
+            <a alt="Linkedin" href="https://www.linkedin.com/in/omurkoca/" target="_blank">
               <Linkedin />
             </a>
           </div>
