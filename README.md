@@ -1,5 +1,41 @@
 
 
+# 🛒 Fynova – Deine Supermarkt-Liefer-App
+
+**Fynova** ist eine moderne Webanwendung, die es Nutzer:innen ermöglicht, Lebensmittel und Produkte aus dem Supermarkt einfach online zu bestellen und bequem nach Hause liefern zu lassen. Das Projekt wurde zu Lern- und Demonstrationszwecken im Rahmen meiner Ausbildung zum Fachinformatiker für Anwendungsentwicklung entwickelt.
+
+## 🚀 Technologien
+
+### Frontend
+- **React.js** mit **Next.js (App Router)**
+- **Tailwind CSS**
+- **Shadcn UI**
+- **Lucide Icons**
+- **Google Maps API** (für Adressvorschläge)
+
+### Backend (in Planung / in Arbeit)
+- **Java** mit **Spring Boot**
+- **Hibernate / JPA**
+- **REST API**
+- **JWT & OAuth2** für Authentifizierung
+- **MySQL / PostgreSQL** (über AWS RDS)
+- **JUnit / Mockito** für Tests
+- **CI/CD mit Jenkins**
+- **Deployment auf AWS **
+
+## 🌐 Funktionen (geplant / teilweise implementiert)
+- Benutzerregistrierung und Login
+- Produkte nach Kategorien durchsuchen
+- Einkaufswagen verwalten
+- Adresssuche mit Google Maps Integration
+- Bestellübersicht & -verfolgung
+- Admin-Oberfläche für Produktverwaltung (optional)
+
+## 🧠 Ziel des Projekts
+
+Dieses Projekt dient dazu, meine Fähigkeiten in den Bereichen **Fullstack-Webentwicklung**, **Cloud-Integration** und **moderne UI/UX-Designs** zu demonstrieren. 
+
+
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
