@@ -21,7 +21,7 @@
 - **MySQL / PostgreSQL** (über AWS RDS)
 - **JUnit / Mockito** für Tests
 - **CI/CD mit Jenkins**
-- **Deployment auf AWS **
+- **Deployment auf AWS**
 
 ## 🌐 Funktionen (geplant / teilweise implementiert)
 - Benutzerregistrierung und Login
