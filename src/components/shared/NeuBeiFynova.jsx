@@ -1,7 +1,7 @@
 
 // import React from 'react'
 'use client';
-import AngebotsKarusell from '../ui/AngebotsKarusell';
+import AngebotsKarusell from '../shop/AngebotsKarusell';
 
 export default function NeuBeiFynova() {
   return (

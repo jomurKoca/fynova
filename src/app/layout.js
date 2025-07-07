@@ -3,12 +3,12 @@ import React from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "../components/shared/Footer";
-import FooterSection from "./_components/_Shared/FooterSection";
-import FooterMitAdresse from "./_components/_Shared/FooterMitAdresse";
+import FooterSection from "../components/shared/FooterSection";
+import FooterMitAdresse from "../components/shared/FooterMitAdresse";
 //import Header from "./_components/_Shared/Header";
 import { usePathname } from 'next/navigation';
-import Header from "./_components/_Shared/Header"; 
-import MobileFooter from "./_components/_Shared/MobilFooter";
+import Header from "../components/shared/Header"; 
+import MobileFooter from "../components/shared/MobilFooter";
 
 
 const geistSans = Geist({
@@ -20,6 +20,7 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
 {/*
 export const metadata = {
   title: "Fynova",
@@ -44,7 +45,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
-{/*
-  
-*/}

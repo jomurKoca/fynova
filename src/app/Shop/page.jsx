@@ -1,10 +1,10 @@
 'use client'
 import React from 'react'
-// import KategorieHeader from '../_components/_Shared/KategorieHeader';
-import AktionsKarte from '../_components/ui/AktionsKarte';
-import AngebotsKarusell from '../_components/ui/AngebotsKarusell';
-import NeuBeiFynova from '../_components/_Shared/NeuBeiFynova';
-import KategorienKarusell from '../_components/_Shared/KategorienKarusell';
+// import KategorieHeader from '../components/shared/KategorieHeader';
+import AktionsKarte from '../../components/shop/AktionsKarte';
+import AngebotsKarusell from '../../components/shop/AngebotsKarusell';
+import NeuBeiFynova from '../../components/shared/NeuBeiFynova';
+import KategorienKarusell from '../../components/shared/KategorienKarusell';
 
 
 

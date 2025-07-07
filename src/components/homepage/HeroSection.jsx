@@ -1,5 +1,5 @@
 import React from 'react' // import React from 'react' ist in React 17+ nicht mehr erforderlich
-import CategorySection from '../_Shared/CategorySection'; 
+import CategorySection from '../shared/CategorySection'; 
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 

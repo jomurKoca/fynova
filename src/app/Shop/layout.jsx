@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '../_components/_Shared/Header'
-import MobilFooter from '../_components/_Shared/MobilFooter';
-import Footer from '../_components/_Shared/Footer';
-import FooterMitAdresse from '../_components/_Shared/FooterMitAdresse';
-//import FooterMitAdresse from '../_components/_Shared/FooterMitAdresse';
+import Header from '../../components/shared/Header'
+import MobilFooter from '../../components/shared/MobilFooter';
+import Footer from '../../components/shared/Footer';
+import FooterMitAdresse from '../../components/shared/FooterMitAdresse';
+//import FooterMitAdresse from '../components/shared/FooterMitAdresse';
 
 
 export default function layout ({children}){

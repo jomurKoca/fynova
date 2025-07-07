@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import { cities } from '../_Shared/DieSteadte';
+import { cities } from '../shared/DieSteadte';
 
 export default function QuickLinks() {
   return (

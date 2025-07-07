@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "./_components/HomePageKomponenten/Header";
-import HomeBanner from "./_components/HomePageKomponenten/HomeBanner";
-import HeroSection from "./_components/HomePageKomponenten/HeroSection";
-import BannerBild from "./_components/HomePageKomponenten/BannerBild";
-import InfoSection from "./_components/HomePageKomponenten/InfoSection";
-import StaffSection from "./_components/HomePageKomponenten/StaffSection";
-import AppInfo from "./_components/HomePageKomponenten/AppInfo";
-import QuickLinks from "./_components/HomePageKomponenten/QuickLinks";
+import Header from "../components/homepage/Header";
+import HomeBanner from "../components/homepage/HomeBanner";
+import HeroSection from "../components/homepage/HeroSection";
+import BannerBild from "../components/homepage/BannerBild";
+import InfoSection from "../components/homepage/InfoSection";
+import StaffSection from "../components/homepage/StaffSection";
+import AppInfo from "../components/homepage/AppInfo";
+import QuickLinks from "../components/homepage/QuickLinks";
 
 
 export default function Home() {

@@ -2,7 +2,7 @@ import React from 'react' // import React ist nicht mehr nötig seit React 17. i
 import { ShoppingBasket } from 'lucide-react';
 import { BadgeEuro, Grape, AlarmClockPlus, EarthLock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import DieSteadte from '../_Shared/DieSteadte';
+import DieSteadte from '../shared/DieSteadte';
 import Link from 'next/link'; 
 
 export default function InfoSection() {
