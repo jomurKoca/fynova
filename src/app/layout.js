@@ -2,7 +2,7 @@
 import React from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Footer from "./_components/_Shared/Footer";
+import Footer from "../components/shared/Footer";
 import FooterSection from "./_components/_Shared/FooterSection";
 import FooterMitAdresse from "./_components/_Shared/FooterMitAdresse";
 //import Header from "./_components/_Shared/Header";

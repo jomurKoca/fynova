@@ -50,7 +50,7 @@ export default function KategorieHeader() {
         <PopoverContent className="p-4 bg-white shadow-lg rounded-md text-[#002855]">
           <div className="grid grid-cols-3 gap-4">
             {alleKategorien.map((item, index) => (
-              <div key={index} className="py-1">
+              <div key={index} className="py-1 cursor-pointer">
                 {item}
               </div>
             ))}

@@ -13,7 +13,7 @@ export default function FooterSection() {
           <Link target='_blank' href="https://github.com/jomurKoca" className="hover:underline">
             <p>Jobs</p>
           </Link>
-          <Link href="https://www.linkedin.com/in/omurkoca/" target="_blank" className="hover:underline">
+          <Link href="https://www.linkedin.com/in/omurkoca/" target='_blank' className="hover:underline">
             <p>FAQ</p>
           </Link>
         </div>

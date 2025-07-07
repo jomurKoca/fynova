@@ -25,6 +25,7 @@ export async function GET(req) {
     }
   }
   {/*
+    https://nextjs.org/docs/app/api-reference/file-conventions/route
     1- Die GET-Funktion ist eine asynchrone Funktion, die die Google Places Autocomplete API verwendet, 
     um Adressvorschläge basierend auf einem Suchbegriff zu erhalten.
     2- Die Funktion extrahiert den Suchbegriff aus der URL-Abfragezeichenfolge und überprüft, ob er vorhanden ist.
