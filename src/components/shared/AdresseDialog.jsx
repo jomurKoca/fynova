@@ -1,10 +1,10 @@
 import React from 'react';
 //import { useState } from "react";
+//import AdresseInput from './AdresseInput';
+//import { Imprima } from 'next/font/google';
 import { Dialog, DialogContent , DialogTitle} from '@/components/ui/dialog';
 import { VisuallyHidden  } from '@radix-ui/react-visually-hidden';
-//import { Imprima } from 'next/font/google';
 import { Search , Navigation } from 'lucide-react';
-//import AdresseInput from './AdresseInput';
 import InputMitReactGoogle from './InputMitReactGoogle';
 
 export default function AdresseDialog({ open , onOpenChange}) {

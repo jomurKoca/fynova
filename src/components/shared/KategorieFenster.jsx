@@ -10,40 +10,10 @@ import {
 import { Button } from '@/components/ui/button';
 import { Menu , Home , Gift } from 'lucide-react';
 import Link from 'next/link';
+import { alleKategorien } from '@/constants/alleKategorien'; // Importieren der Kategorien aus einer zentralen Datei
 
 export default function KategorieFenster() {
-  const alleKategorien = [
-    "Obst",
-    "Cerealien & Aufstriche",
-    "Joghurt & Desserts",
-    "Aufschnitt & Brotaufstriche",
-    "Nudeln, Reis & Internationales Kochen",
-    "Tiefkühlkost",
-    "Schokolade & Kekse",
-    "Alkoholfreie Getränke",
-    "Spirituosen & Mehr",
-    "Baby",
-    "Gemüse",
-    "Frisch & Fertig",
-    "Feinkost",
-    "Fleisch & Fisch",
-    "Saucen, Öle & Gewürze",
-    "Eis",
-    "Fruchtgummi, Bonbons & Kaugummi",
-    "Bier",
-    "Drogerie",
-    "Katze & Hund",
-    "Backwaren",
-    "Eier, Milch & Butter",
-    "Käse",
-    "Vegan & Vegetarisch",
-    "Konserven, Instantgerichte & Backen",
-    "Salzige Snacks",
-    "Kaffee, Tee & Kakao",
-    "Wein & Sekt",
-    "Haushalt",
-    "Fitness"
-  ];
+  
 
   return (
     <Sheet>

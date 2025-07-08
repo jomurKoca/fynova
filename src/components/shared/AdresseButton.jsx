@@ -34,7 +34,7 @@ export default function AdresseButton() {
           //align="center"
           className="flex justify-center bg-[#002855] text-white p-4 shadow-lg/"
         >
-          <p>Liefern wir bei dir? Jetzt Adresse eingeben & überprüfen. 🏠</p> {/* {"\u{1F3E0}"} */}
+          <p>Liefern wir bei dir? Jetzt Adresse eingeben & überprüfen..</p> 
         </PopoverContent>
       </Popover>
        {/* Dialog tetiklenmesi */}

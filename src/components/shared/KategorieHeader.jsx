@@ -4,39 +4,7 @@ import { Popover, PopoverTrigger, PopoverContent } from '@radix-ui/react-popover
 import { Button } from '@/components/ui/button';
 // import KategorieFenster from './KategorieFenster';
 import { Menu } from 'lucide-react';
-
-export const alleKategorien = [
-  "Obst",
-  "Cerealien & Aufstriche",
-  "Joghurt & Desserts",
-  "Aufschnitt & Brotaufstriche",
-  "Nudeln, Reis & Internationales Kochen",
-  "Tiefkühlkost",
-  "Schokolade & Kekse",
-  "Alkoholfreie Getränke",
-  "Spirituosen & Mehr",
-  "Baby",
-  "Gemüse",
-  "Frisch & Fertig",
-  "Feinkost",
-  "Fleisch & Fisch",
-  "Saucen, Öle & Gewürze",
-  "Eis",
-  "Fruchtgummi, Bonbons & Kaugummi",
-  "Bier",
-  "Drogerie",
-  "Katze & Hund",
-  "Backwaren",
-  "Eier, Milch & Butter",
-  "Käse",
-  "Vegan & Vegetarisch",
-  "Konserven, Instantgerichte & Backen",
-  "Salzige Snacks",
-  "Kaffee, Tee & Kakao",
-  "Wein & Sekt",
-  "Haushalt",
-  "Fitness"
-];
+import { alleKategorien } from '@/constants/alleKategorien'; // Importieren der Kategorien aus einer zentralen Datei
 
 export default function KategorieHeader() {
   return (

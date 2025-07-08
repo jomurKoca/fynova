@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 // import { CirclePlus } from 'lucide-react';
-import { alleKategorien } from './KategorieHeader';
+import { alleKategorien } from '@/constants/alleKategorien'; // Importieren der Kategorien aus einer zentralen Datei
 
 export default function KategorienKarusell() {
   return (
