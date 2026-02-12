@@ -40,5 +40,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-public/Dokumentation/
+# public folder
+/public/
+
 FetchTest.js
